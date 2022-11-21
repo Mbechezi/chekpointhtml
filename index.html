@@ -3,54 +3,90 @@
    <head> 
         <meta charset="utf-8">
         <title>mywebsite</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./styles.css"/>
     </head>
     <body>
+        <header>
+            <div class="bloque">
+                <h1>Woudi Holding</h1>
 
-        <!--barre de navigation-->
-        <nav>
-            <ul>
-                <li><a href="#"> à propos</a></li>
-                <li><a href="#"> travail</a></li>
-                <li><a href="#"> CV</a></li>
-                <li><a href="#"> contact</a></li>
-            </ul>
-        </nav>
+                 <!--barre de navigation-->
+                <nav>
+                    <ul>
+                        <li><a href="#about"> A propos</a></li>
+                        <li><a href="#travail"> Travail </a></li>
+                        <li><a href="#send-cv"> CV</a></li>
+                        <li><a href="#contact"> Contact</a></li>
+                    </ul>
+                </nav>
 
-        <h2> Vidéo</h2>
-        <video controls>
-            <source src=”Vidéo9.mp4” type=video>
-          </video>
-
-        <!--les sections-->
+            </div>
+        </header>
         
-        <section>
-            <h1> à propos</h1>
+        <!--les sections-->
+
+        <section id="image-fond"></section>
+
+        <section id="about">
+            <div class="bloque">
+            <h1> A propos de Nous</h1>
+                <p>
+                    <h3> Nous sommes une entreprise specialisée sur les technologies informatiques</h3>
+
+                </p> 
+            </div>
+
         </section>
 
-        <section>
-            <h1> travail</h1>
+        <section id="travail"> 
+            <div class="bloque">
+                <h1>Nos services</h1>
+                    <ol> <a href="#">Edition de logiciel</a> </ol>
+                    <ol> <a href="#">Intégration des solutions informatiques</a> </ol>
+                    <ol> <a href="#">Formation et certifications </a> </ol>
+            </div>
+
         </section>
 
-        <section>
-            <h1> CV</h1>
+        <section id="contact">
+            <div class="bloque">
+                <h1> Nous conatcter</h1>
+                    <form class="formulaire">
+                        <label for="name">Nom</label> 
+                        <input type="text" id="Nom"/> <br> <br>
+                        <label for="Prénom"> Prénom</label>
+                        <input type="text" id="Prénom" /> <br><br>
+                        <label for="E-mail"> Email</label>
+                        <input type="email" id="e-mail" /> <br><br>
+                        <label for="mot de passe"> Mot de passe</label>
+                        <input type="password" id="mot de passe" /> <br><br>
+                        <label for="téléphone"> Téléphone</label>
+                        <input type="tel" id="téléphone" /> <br><br>
+                        <button type="submit" >Envoyer</button>
+                    </form>
+            </div>
         </section>
 
+
         <section>
-            <h1> contact</h1>
-            <form>
-                <label for="name">Nom</label> 
-                <input type="text" id="Nom"/> <br> <br>
-                <label for="Prénom"> Prénom</label>
-                <input type="text" id="Prénom" /> <br><br>
-                <label for="E-mail"> Email</label>
-                <input type="email" id="e-mail" /> <br><br>
-                <label for="mot de passe"> Mot de passe</label>
-                <input type="password" id="mot de passe" /> <br><br>
-                <label for="téléphone"> Téléphone</label>
-                <input type="tel" id="téléphone" /> <br><br>
-                <button type="submit" >Envoyer</button>
-            </form>
+            <div class="send-cv">
+                <h2> Votre CV :</h2>
+                <a href="#"></a> 
+                <button type="submit" >Télécharger votre CV</button>
+            </div>
         </section>
+
+        <div class="video">
+            <h2>Vidéo</h2><br>
+            <video controls> 
+                <source src=”Vidéo9.mp4” type=video>
+              </video>
+        </div>
+
+        
         <footer>
             Copyright Mous, novembre 2022
         </footer>

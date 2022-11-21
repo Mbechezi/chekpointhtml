@@ -1,0 +1,113 @@
+body{
+    font-family: Arial, Helvetica;
+    font-size: 10px;
+}
+
+/*hauteur du titre*/
+header{
+    height: 130px;
+    background-color:rgba(255, 255, 255, 0.69);
+}
+
+/*mettre le titre Woudi holding à gauche*/
+header h1{
+    float: left;
+    margin-top: 35px; /*donner une marge du haut*/
+    margin-bottom: 2px; /*donner une marge en bas*/
+    padding-left: 30px;
+    font-weight: bold;
+    cursor: pointer;  /*logo clicable*/
+}
+
+/*placer la barre de navigation à droite*/
+header nav{
+    float: right;
+    margin-right: 35px;
+    margin-top: 35px;
+    margin-bottom: 2px;
+    font-weight: bold;
+    height: 130px;
+
+}
+
+/*image de fond*/ 
+#image-fond
+{
+    height: 450px;
+    background: url('images/image_fond.jpg') no-repeat;
+    background-size: cover;
+}
+h1{
+    font-family: roboto;
+    font-size: 40px;
+}
+
+h2{
+    font-family: roboto;
+    font-size: 20px;
+    display: inline;
+}
+ul {
+    list-style: none;
+}
+
+/*aligner les éléments de la navigation*/
+li{
+    display: inline;
+    padding: 8px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*ne pas souligner les lien après clique*/
+a{
+    text-decoration: none;
+    color:black;
+    
+}
+  
+.video{
+   display: block; 
+   width: 400px; 
+   margin-top: 50px;
+   margin-bottom: 50px;
+   margin-left: auto; 
+   margin-right: 20px;
+  
+}
+
+/*mettre les éléments html dans des des bloques*/
+
+.bloque{
+   
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    margin-right: 15px;
+}
+
+/*liste ordonnée de Nos services*/
+ol{
+    display: block;
+    padding: 1px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.send-cv{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+footer{
+    display: block;
+    margin-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    color: rgba(80, 140, 244, 0.447);
+    font-weight: bold;
+    font-size: 120%;
+}
